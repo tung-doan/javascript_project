@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherform {
+    margin: 20px;
+}
+
+.weatherform input {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 70%);
+}
+
+.weatherform button {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 2rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: hsl(120, 100%, 50%);
+}
+
+.weatherform button:hover {
+    background-color: hsl(120, 100%, 65%);
+}
+
+
+.weatherform button:active {
+    background-color: hsl(120, 100%, 75%);
+}
+
+
+.card {
+    background: linear-gradient(180deg, hsl(240, 100%, 75%), hsl(39, 100%, 75%));
+    padding: 100px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 5px 0px;
+}
+
+.CityDisplay,
+.TempDisplay {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.HumidityDisplay {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.WeatherEmoji {
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.ErrorDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.DescDisplay{
+    font-size: 2rem;
+    font-weight:bold ;
+    color: black;
+}
